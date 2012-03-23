@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.acme.actors.fridge.feature"
+      label="Feature"
+      version="1.0.0.qualifier"
+      provider-name="Acme">
+
+   <description url="http://www.example.com/description">
+      Example feature including some actors for controlling a fridge.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.dawb.passerelle.common" version="0.8.2" match="greaterOrEqual"/>
+      <import plugin="com.isencia.passerelle.workbench.model" version="1.1.0" match="greaterOrEqual"/>
+      <import plugin="com.isencia.passerelle.actor" version="6.0.1" match="greaterOrEqual"/>
+      <import plugin="ptolemy.core" version="7.0.1" match="greaterOrEqual"/>
+      <import plugin="com.isencia.passerelle.engine" version="7.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.acme.actors.fridge"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

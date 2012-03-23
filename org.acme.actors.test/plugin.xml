@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.isencia.passerelle.engine.actorGroups">
+      <actorgroup
+            id="org.acme.actors.test.actorGroup"
+            name="Actor Group">
+      </actorgroup>
+   </extension>
+   <extension
+         point="com.isencia.passerelle.engine.actors">
+      <actor
+            class="org.acme.actors.test.TestActor"
+            group="org.acme.actors.test.actorGroup"
+            id="org.acme.actors.test.actor"
+            name="Acme Actor">
+      </actor>
+   </extension>
+
+</plugin>
