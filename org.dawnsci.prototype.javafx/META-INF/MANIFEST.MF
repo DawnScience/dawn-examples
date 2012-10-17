@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Javafx
+Bundle-SymbolicName: org.dawnsci.prototype.javafx; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.dawnsci.prototype.javafx.Activator
+Bundle-Vendor: DLS
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: jfxrt.jar,
+ .

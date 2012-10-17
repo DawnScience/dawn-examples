@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Prototypes"
+            id="org.dawnsci.prototype.javafx">
+      </category>
+      <view
+            name="JavaFX Test"
+            icon="icons/sample.gif"
+            category="org.dawnsci.prototype.javafx"
+            class="org.dawnsci.prototype.javafx.views.JavaFXTestView"
+            id="org.dawnsci.prototype.javafx.views.JavaFXTestView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+</plugin>
