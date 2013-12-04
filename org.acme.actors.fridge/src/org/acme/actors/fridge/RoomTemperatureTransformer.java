@@ -25,7 +25,6 @@ public class RoomTemperatureTransformer extends AbstractDataMessageTransformer {
 
 	public RoomTemperatureTransformer(CompositeEntity container, String name) throws NameDuplicationException, IllegalActionException {
 		super(container, name);
-		passModeParameter.setVisibility(Settable.EXPERT);
 		memoryManagementParam.setVisibility(Settable.EXPERT);
 		dataSetNaming.setVisibility(Settable.EXPERT);
 	}

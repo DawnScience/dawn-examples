@@ -29,7 +29,7 @@ public class CoolingTransformer extends AbstractDataMessageTransformer {
 
 	public CoolingTransformer(CompositeEntity container, String name) throws NameDuplicationException, IllegalActionException {
 		super(container, name);
-		passModeParameter.setVisibility(Settable.EXPERT);
+		//passModeParameter.setVisibility(Settable.EXPERT);
 		memoryManagementParam.setVisibility(Settable.EXPERT);
 		dataSetNaming.setVisibility(Settable.EXPERT);
 	}
